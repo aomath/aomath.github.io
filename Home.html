@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>الصفحة الرئيسية - رياضيات</title>
+</head>
+<body>
+
+    <div class="popup" id="popup">
+        <a href="5\1.html"><button type="button">1</button></a>
+        <a href="5\2.html"><button type="button">2</button></a>
+    </div>
+    
+    <header>
+        <a href="#" class="logo">A&O Math</a>
+    </header>
+
+
+    <section id="home" class="main">
+        <div>
+            <h2>Created By @<span class="created">Ameer & Omar</span><br><span class="math">حساب</span></h2>
+            <button type="button" class="main-btn" onclick="openPopup()">خامس</button>
+            <a href="6\ERR.html"><button type="button" class="main-btn">سادس</button></a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Created By @<span>Ameer & Omar</span></p>
+    </footer>
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+</script>
+</body>
+</html>
