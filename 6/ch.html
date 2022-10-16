@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سادس - إختيار</title>
+    <link rel="stylesheet" href="6ch.css">
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn" onclick="openPopup()">إختيار</button>
+        <div class="popup" id="popup">
+            <a href="https://wordwall.net/embed/757c7f276bdb4a55a08bde32b811b707?themeId=1&templateId=3&fontStackId=0"><button type="button" class="btn1">ملائمة الإنتشار للمنشور</button></a>
+            <a href="https://wordwall.net/embed/537fd6dc1e7e4a21b6b0c72fc83dac7a?themeId=1&templateId=2&fontStackId=0"><button type="button" class="btn1">صحيح او غير صحيح</button></a>
+            <button type="button" class="close-btn" onclick="closePopup()">X</button>
+        </div>
+    </div>
+<script>
+let popup = document.getElementById("popup");
+
+function openPopup(){
+  popup.classList.add("open-popup");
+}
+
+function closePopup(){
+  popup.classList.remove("open-popup");
+}
+
+</script>
+</body>
+</html>
